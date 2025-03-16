@@ -1,0 +1,17 @@
+<ion-card class="card-camera">
+  <ion-card-header>
+    <ion-card-title>
+      <ion-icon name="camera" class="camera-icon"></ion-icon>
+      Tirar Foto
+    </ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item lines="none">
+      <ion-label class="upload-label">
+        <ion-icon name="cloud-upload-outline"></ion-icon>
+        Escolher Arquivo
+      </ion-label>
+      <input type="file" (change)="onFileChange($event)" accept="image/*" class="upload-input"/>
+    </ion-item>
+  </ion-card-content>
+</ion-card>

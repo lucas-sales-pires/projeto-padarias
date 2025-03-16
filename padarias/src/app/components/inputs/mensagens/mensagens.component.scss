@@ -1,0 +1,29 @@
+.card-mensagens {
+    background: linear-gradient(135deg, #f9f9f9, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    
+  }
+  
+  .mensagem-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-right: 8px;
+  }
+  
+  .custom-textarea {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 80px;
+    transition: border 0.3s ease;
+  }
+  
+  .custom-textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+    
+  }
+  

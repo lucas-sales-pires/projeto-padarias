@@ -1,0 +1,18 @@
+.alerta-btn {
+    background: linear-gradient(135deg, #ff4e50, #ff7b7b);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.1s ease-in-out;
+  }
+  
+  .alerta-btn:hover {
+    background: linear-gradient(135deg, #ff3b3b, #ff6666);
+  }
+  
+  .alerta-btn:active {
+    transform: scale(0.95);
+  }
+  

@@ -1,0 +1,17 @@
+.message {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    display: inline-block;
+    max-width: 70%;
+  
+    p {
+      margin: 0;
+    }
+  
+    span {
+      font-size: 0.8em;
+      color: #666;
+    }
+  }

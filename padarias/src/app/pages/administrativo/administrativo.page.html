@@ -1,0 +1,109 @@
+<app-navbar/>
+<ion-content class="ion-padding" id="main-content">
+  <ion-grid>
+    <!-- Linha com 2 cards -->
+    <ion-row class="ion-align-items-stretch">
+      <!-- Card de Alerta -->
+      <ion-col size="12" size-md="6">
+        <ion-card class="card-alerta">
+          <ion-card-header>
+            <ion-card-title style="color: #4a90e2">Alerta</ion-card-title>
+            <ion-card-subtitle style="color: #4a90e2"
+              >Envie um alerta para os clientes informando que os pães estão
+              prontos</ion-card-subtitle
+            >
+          </ion-card-header>
+          <ion-card-content>
+            <app-alerta />
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Card com opção de adicionar item ao cardápio da padaria -->
+
+      <ion-col size="12" size-md="6">
+        <ion-card class="card-adicionar">
+          <ion-card-header>
+            <ion-card-title style="color: #4a90e2"
+              >Adicionar Item</ion-card-title
+            >
+            <ion-card-subtitle style="color: #4a90e2"
+              >Adicione um item ao cardápio da padaria</ion-card-subtitle
+            >
+          </ion-card-header>
+          <ion-card-content>
+            <app-adicionar-cardapio />
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Card de Mensagens -->
+      <ion-col size="12" size-md="6">
+        <ion-card
+          class="card-mensagem"
+          style="
+            background: #e3f2fd;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+          "
+        >
+          <ion-card-header>
+            <ion-card-title style="color: #0277bd">Mensagens</ion-card-title>
+            <ion-card-subtitle style="color: #01579b"
+              >Veja as mensagens dos clientes</ion-card-subtitle
+            >
+          </ion-card-header>
+          <ion-card-content>
+            <app-mensagens />
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Linha com 2 cards -->
+      <ion-row class="ion-align-items-stretch">
+        <!-- Card de Câmera -->
+        <ion-col size="12" size-md="6">
+          <ion-card
+            class="card-camera"
+            style="
+              background: #fbe9e7;
+              box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            "
+          >
+            <ion-card-header>
+              <ion-card-title style="color: #4a90e2">Foto</ion-card-title>
+              <ion-card-subtitle style="color: #4a90e2"
+                >Tire uma foto dos pães prontos</ion-card-subtitle
+              >
+            </ion-card-header>
+            <ion-card-content>
+              <app-camera />
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <!-- Card de Mensagem com Foto -->
+        <ion-col size="12" size-md="6">
+          <ion-card
+            class="card-foto"
+            style="
+              background: #dcedc8;
+              box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            "
+          >
+            <ion-card-header>
+              <ion-card-title style="color: #4a90e2"
+                >Mensagem com Foto</ion-card-title
+              >
+              <ion-card-subtitle style="color: #4a90e2"
+                >Envie uma mensagem com foto dos pães prontos</ion-card-subtitle
+              >
+            </ion-card-header>
+            <ion-card-content>
+              <app-foto />
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-row>
+  </ion-grid>
+</ion-content>

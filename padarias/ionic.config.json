@@ -1,0 +1,7 @@
+{
+  "name": "padarias",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

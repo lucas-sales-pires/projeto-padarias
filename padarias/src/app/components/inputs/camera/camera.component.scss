@@ -1,0 +1,43 @@
+.card-camera {
+    background: linear-gradient(135deg, #f9f9f9, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+  
+  .camera-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-right: 8px;
+  }
+  
+  .upload-label {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .upload-label ion-icon {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .upload-label:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-input {
+    display: none; /* Esconde o input padrão */
+  }
+  
+  ion-item {
+    --background: transparent;
+    border: none;
+  }
+  

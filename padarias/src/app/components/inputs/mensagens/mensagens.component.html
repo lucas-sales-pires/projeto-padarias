@@ -1,0 +1,19 @@
+<ion-card class="card-mensagens">
+  <ion-card-header>
+    <ion-card-title>
+      <ion-icon name="chatbubbles-outline" class="mensagem-icon"></ion-icon>
+      Mensagens
+    </ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item lines="none">
+      <ion-label position="floating">Nova Mensagem</ion-label>
+      <ion-textarea
+        [(ngModel)]="novaMensagem"
+        placeholder="Digite uma mensagem para os clientes"
+        class="custom-textarea"
+      ></ion-textarea>
+    </ion-item>
+  <!-- botao -->
+  </ion-card-content>
+</ion-card>
